@@ -1,0 +1,19 @@
+{
+  "repository": "BackplaneWorks/Backplane_KiCad",
+  "tag": "backplane-kicad-v10.99.0-bp.7",
+  "version": "10.99.0-bp.7",
+  "assets": {
+    "darwin-arm64": {
+      "name": "backplane-kicad-darwin-arm64-10.99.0-bp.7.tar.gz",
+      "url": "https://github.com/BackplaneWorks/Backplane_KiCad/releases/download/backplane-kicad-v10.99.0-bp.7/backplane-kicad-darwin-arm64-10.99.0-bp.7.tar.gz",
+      "sha256": "40e20e7ae2ecf24f4c49052d287496a6ee14eabe5b531f5e07c722aa436e8113",
+      "size": 432355899
+    },
+    "linux-x86_64": {
+      "name": "backplane-kicad-linux-x86_64-10.99.0-bp.7.tar.gz",
+      "url": "https://github.com/BackplaneWorks/Backplane_KiCad/releases/download/backplane-kicad-v10.99.0-bp.7/backplane-kicad-linux-x86_64-10.99.0-bp.7.tar.gz",
+      "sha256": "47c7ec866b2563ddaad6041977ce9d1132910987049fc412ec765c43dfe1fbe0",
+      "size": 1017704480
+    }
+  }
+}

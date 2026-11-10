@@ -1,0 +1,11 @@
+(kicad_sch
+  (version 20250114)
+  (generator "eeschema")
+  (uuid "f69fd80b-b98c-4dad-9412-48682797b7aa")
+  (paper "A4")
+  (lib_symbols)
+  (text "IPC test note"
+    (at 50 50 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid "44ca218a-6899-4337-9396-86bc2ea4dd81"))
+  (embedded_fonts no))

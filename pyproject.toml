@@ -1,0 +1,25 @@
+[project]
+name = "kicad-toolbox"
+version = "0.1.0"
+description = "Standalone Backplane KiCad IPC tools for Codex and other MCP clients"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+dependencies = ["mcp>=1.20,<2", "protobuf>=6.31,<8", "pynng>=0.8,<1"]
+
+[project.scripts]
+kicad-toolbox = "kicad_toolbox.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "ruff>=0.14,<1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["live: requires explicitly enabled, installed local KiCad runtime"]
+
+[tool.ruff]
+line-length = 100
