@@ -28,6 +28,8 @@ Backplane app or a complete high-level EE assistant.
   reopen/export deliberately. Keep a single writer for each design.
 - KiStack's placement scripts can connect using the returned socket URL, but
   their complete optimization workflow is separate from this bridge's tests.
+  A read-only `pin_sides.py` query was also verified against the live two-pad
+  fixture using the separately installed KiStack skill.
 
 ### Native format compatibility
 
